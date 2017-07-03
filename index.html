@@ -9,8 +9,10 @@ title: Think Tanks
 {% assign thinktanks = thinktanks | sort:"Location" | reverse %}
 
 <!-- Document -->
+<ul>
 {% for thinktank in thinktanks %}
   {% unless thinktank.Name == '' %}
-    <li>{{ thinktank.Name }} - {{ thinktank.Location }}</li>
+    <li>{{ thinktank.Name }} - {{ thinktank.Location }} ( {{ thinktank.URL }})</li>
   {% endunless %}
 {% endfor %}
+</ul>
