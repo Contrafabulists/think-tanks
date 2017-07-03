@@ -8,6 +8,7 @@ title: Think Tanks
 {% assign thinktanks = site.data.thinktanks %}
 {% assign thinktanks = thinktanks | sort:"Location" | reverse %}
 
+<!-- Document -->
 {% for thinktank in thinktanks %}
   {% unless thinktank.Name == '' %}
     <li>{{ thinktank.Name }} - {{ thinktank.Location }}</li>

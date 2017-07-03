@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Update Integrations Spreadsheet
+title: Update Spreadsheet
 ---
 
+<!--These are JavaScript Libraries-->
 <script type="text/javascript" src="https://contrafabulists.github.io/think-tanks/js/jquery-latest.min.js"></script>
 <script type="text/javascript" src="https://contrafabulists.github.io/think-tanks/js/utility.js"></script>
 <script type="text/javascript" src="https://contrafabulists.github.io/think-tanks/js/cookies.js"></script>
@@ -16,35 +17,37 @@ title: Update Integrations Spreadsheet
     // Reset the cookie manually
     //Cookies.expire('token');
 
-    var $oAuthToken = getUrlVar('token');
-    var $yaml_store = "";
+    // URL: https://[user/org].github.io/[repo]/pull-spreadsheet/?key=your_key&worksheet=worksheet_name&token=your_personal_access_token&org=your_org&repo=your_repo&branch=your_branch
 
-    // When you fork, make sure ad add your org / user and repo name to _config.yml
-    var $org = '{{ site.github_user }}';
-    var $repo = '{{ site.github_repo }}';
+    // Incoming Variables append
+    var $key = getUrlVar('key');
+    var $resource = getUrlVar('worksheet');
+    var $oAuthToken = getUrlVar('token');
+    var $org = getUrlVar('org');
+    var $repo = getUrlVar('repo');
+    var $branch = getUrlVar('branch');
+
+    var $yaml_store = "";
 
     if($oAuthToken !='')
       {
-
       // Setting a cookie value
       Cookies.set('token', $oAuthToken);
-
       // Set with expiration
       // Cookies.set('token', $oAuthToken, { expires: '01/01/2017' });
-
       }
 
     // Grab the token from cookie
     $oAuthToken = Cookies.get('token');
 
-    key = "{{ site.integration_spreadsheet_key }}";
-
     $(document).ready( function() {
-      Tabletop.init( { key: key,
+      Tabletop.init( { key: $key,
                        callback: showInfo,
-                       wanted: [ "thinktanks" ],
+                       wanted: [ $resource ],
                        debug: true } )
     })
+
+    console.log($resource);
 
     function showInfo(data, tabletop) {
 
@@ -56,39 +59,23 @@ title: Update Integrations Spreadsheet
         $("#table_info").append("<p>" + sheet.name + " has " + sheet.column_names.join(", ") + "</p>");
       });
 
-      // Worksheet Name
-      $product = tabletop.sheets("thinktanks").all();
+      $product = tabletop.sheets($resource).all();
 
       $count = 0;
       $total_count = $product.length;
-      $.each( tabletop.sheets("thinktanks").all(), function(i, service) {
-
-          $Name = service['Name'];
-          $Location = service['Location'];
-          $URL = service['URL'];
-          $Focus = service['Focus'];
-          $Political_Orientation = service['Political Orientation'];
-          $Notable_Funders = service['Notable Funders'];
-          $Notable_Figues = service['Notable Figures'];
+      $.each( tabletop.sheets($resource).all(), function(i, service) {
 
           $p = {};
-          $p['Name'] = $Name;
-          $p['Location'] = $Location;
-          $p['URL'] = $URL;
-          $p['Focus'] = $Focus;
-          $p['Political Orientation'] = $Political_Orientation;
-          $p['Notable Funders'] = $Notable_Funders;
-          $p['Notable Figures'] = $Notable_Figues;
-
+          $.each(service, function($key, $value) {
+            //console.log($key + ' == ' + $value);
+            $p[$key] = $value;
+          });
           $products.push($p);
-          //beautify(jsonStr);
 
           $count++;
+          //console.log($count + ' == ' + $total_count);
           if($count==$total_count)
             {
-            $products_json = JSON.stringify($products);
-            $products_json = JSON.stringify(JSON.parse($products_json),null,2);
-
             $yaml_dump = jsyaml.dump($products);
 
             document.getElementById('source').value = $yaml_dump;
@@ -99,14 +86,16 @@ title: Update Integrations Spreadsheet
             var github = new Github({token: $oAuthToken,auth: "oauth"});
             var repo = github.getRepo($org,$repo);
 
-            repo.getTree('master?recursive=true', function(err, tree) {
+            repo.getTree('{{ site.github_branch }}?recursive=true', function(err, tree) {
 
               $.each(tree, function(treeKey, treeValue) {
 
-                $writepath = '_data/thinktanks.yaml';
+                $writepath = '_data/' + $resource + '.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
+
                 //console.log($path + ' == ' + $writepath);
+
                 if($path==$writepath)
                   {
                   repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
@@ -117,7 +106,7 @@ title: Update Integrations Spreadsheet
               });
 
             }
-      })
+      });
 
     }
 
