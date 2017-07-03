@@ -10,7 +10,7 @@ title: Update Integrations Spreadsheet
 <script type="text/javascript" src="https://contrafabulists.github.io/think-tanks/js/js-yaml.min.js"></script>
 <script type="text/javascript" src="https://contrafabulists.github.io/think-tanks/js/github.js"></script>
 
-<h1>Update - 4</h1>
+<h1>Update - 5</h1>
 <script type="text/javascript">
 
     // Reset the cookie manually
@@ -78,7 +78,7 @@ title: Update Integrations Spreadsheet
           $p['Focus'] = $Focus;
           $p['Political Orientation'] = $Political_Orientation;
           $p['Notable Funders'] = $Notable_Funders;
-          $p['Notable Figure'] = $Notable_Figues;
+          $p['Notable Figures'] = $Notable_Figues;
 
           $products.push($p);
           //beautify(jsonStr);
@@ -106,7 +106,7 @@ title: Update Integrations Spreadsheet
                 $writepath = '_data/thinktanks.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
-              //  console.log($path + ' == ' + $writepath);
+                console.log($path + ' == ' + $writepath);
                 if($path==$writepath)
                   {
                   repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
