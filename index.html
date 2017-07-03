@@ -1,0 +1,15 @@
+---
+layout: default
+title: Think Tanks
+---
+<h1>Think Tanks</h1>
+
+<!-- Think Tanks -->
+{% assign thinktanks = site.data.thinktanks %}
+{% assign thinktanks = thinktanks | sort:"Location" | reverse %}
+
+{% for thinktank in thinktanks %}
+  {% unless thinktank.Name == '' %}
+    <li>{{ thinktank.Name }} - {{ thinktank.Location }}</li>
+  {% endunless %}
+{% endfor %}
