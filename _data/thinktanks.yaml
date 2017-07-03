@@ -1,0 +1,210 @@
+- Name: Acton Institute
+  Location: Grand Rapids MI
+  URL: 'https://acton.org/'
+  Focus: public policy
+  Political Orientation: libertarian
+  Notable Funders: David H. Koch Foundation
+  Notable Figures: Betsy DeVos
+- Name: American Enterprise Intitute
+  Location: Washington DC
+  URL: 'http://www.aei.org/'
+  Focus: 'government, economic policy, social welfare, private enterprise'
+  Political Orientation: conservative
+  Notable Funders: ExxonMobil
+  Notable Figures: >-
+    Lynne Cheney, Charles Murray, Newt Gingrich, Dick Cheney, Daniel Patrick
+    Moynihan, Christina Joff Sommers, Richard Vedder, Robert Bork, Dinesh
+    D'Souza, David Frum
+- Name: Aspen Institute
+  Location: Washington DC
+  URL: 'https://www.aspeninstitute.org/'
+  Focus: 'education policy, leadership, criminal justice, environmental policy'
+  Political Orientation: centrist
+  Notable Funders: >-
+    Carnegie Corporation, Rockefeller Brothers Fund, Bill & Melinda Gates
+    Foundation, Lumina Foundation, Ford Foundation
+  Notable Figures: >-
+    Walter Isaacson, Madeleine Albright, John Doerr, Salman Khan, Queen Noor of
+    Jordan, Condoleezza Rice, Katie Couric
+- Name: Brookings Institution
+  Location: Washington DC
+  URL: 'https://www.brookings.edu/'
+  Focus: 'education policy, global development, economic policy,'
+  Political Orientation: centrist
+  Notable Funders: >-
+    Bill & Melinda Gates Foundation, William and Flora Hewlett Foundation,
+    JPMorgan Chase, the LEGO Foundation, State of Qatar
+  Notable Figures: 'E. J. Dionne, Jon Huntsman, Susan Rice, Susan Dynarski'
+- Name: Cato Institute
+  Location: Washington DC
+  URL: 'https://www.cato.org/'
+  Focus: >-
+    education policy, government spending, monetary policy, tax policy,
+    information and Internet policy
+  Political Orientation: libertarian
+  Notable Funders: 'FedEx, Google, Whole Foods Market'
+  Notable Figures: 'Charles and David Koch, Neal McCluskey, Julian Sanchez'
+- Name: Center for American Progress
+  Location: Washington DC
+  URL: 'https://www.americanprogress.org/'
+  Focus: 'criminal justice, education policy, economic policy, social policy'
+  Political Orientation: liberal
+  Notable Funders: >-
+    Ford Foundation, Bill & Melinda Gates Foundation, Walmart, Walton Family
+    Foundation, CitiGroup, Embassy of the United Arab Emirates, Joyce Foundation
+  Notable Figures: 'Neera Tanden, Ulrich Boser, Lawrence Korb'
+- Name: Center for Immigration Studies
+  Location: Washington DC
+  URL: 'http://www.cis.org/'
+  Focus: immigration
+  Political Orientation: conservative
+  Notable Funders: >-
+    William H. Donner Foundation, Lynde and Harry Bradley Foundation, John M.
+    Olin Foundation
+  Notable Figures: Mark Krikorian
+- Name: Claremont Institute
+  Location: Claremont CA
+  URL: 'http://www.claremont.org/'
+  Focus: 'legal policy, property rights, environmental policy'
+  Political Orientation: conservative
+  Notable Funders: >-
+    Sarah Scaife Foundation, Lynde and Harry Bradley Foundation, John M. Olin
+    Foundation, William H. Donner Foundation
+  Notable Figures: 'Bruce Sanborn, Pat Sajak'
+- Name: Discovery Institute
+  Location: Seattle WA
+  URL: 'http://www.discovery.org/'
+  Focus: 'intelligent design, economic policy, technology policy'
+  Political Orientation: conservative
+  Notable Funders: 'Bill & Melinda Gates Foundation, Maclellan Foundation'
+  Notable Figures: Bruce Chapman
+- Name: Economic Policy Institute
+  Location: Washington DC
+  URL: 'http://www.epi.org/'
+  Focus: 'economic policy, health care, education'
+  Political Orientation: liberal
+  Notable Funders: >-
+    AFSCME, United Auto Workers, United Steekworkers, United Mine Workers,
+    Service Employees International Union
+  Notable Figures: 'Valerie Wilson, Lawrence Mishel'
+- Name: Electronic Privacy Information Center
+  Location: Washington DC
+  URL: 'https://en.wikipedia.org/wiki/Electronic_Privacy_Information_Center'
+  Focus: 'privacy, Internet technology, free speech'
+  Political Orientation: libertarian
+  Notable Funders: >-
+    Carnegie Corporation, Ford Foundation, W. K. Kellog Foundation, Omidyar
+    Network, Sun Microsystems, Rockefeller Family Fund
+  Notable Figures: Marc Rotenberg
+- Name: Foundation for Excellence in Educaiton
+  Location: Talahassee FL
+  URL: 'http://www.excelined.org/'
+  Focus: education policy
+  Political Orientation: conservative
+  Notable Funders: 'Bill & Melinda Gates Foundation, Michael Bloomberg, Amplify'
+  Notable Figures: 'Jeb Bush, Condoleezza Rice'
+- Name: Future of Privacy Forum
+  Location: Washington DC
+  URL: 'http://www.futureofprivacy.org/'
+  Focus: 'privacy, Internet technology, free speech'
+  Political Orientation: conservative
+  Notable Funders: 'Google, AT&T, Comcast, Facebook, Bill & Melinda gates Foundation'
+  Notable Figures: Jules Polonetsky
+- Name: Heartland Institute
+  Location: Chicago IL
+  URL: 'https://www.heartland.org/'
+  Focus: >-
+    education policy, environmental policy (global warming), health care policy,
+    tobacco
+  Political Orientation: libertarian
+  Notable Funders: >-
+    Sarah Scaife Foundation, John M. Olin Foundation, Lynde and Harry Bradley
+    Foundation, Charles G. Koch Charitable Foundation, ExxonMobil
+  Notable Figures: 'Robert Buford, Joseph L. Bast'
+- Name: Heritage Foundation
+  Location: Washington DC
+  URL: 'http://www.heritage.org/'
+  Focus: 'government spending, education policy, foreign policy'
+  Political Orientation: libertarian
+  Notable Funders: Richard and Helen DeVos Foundation
+  Notable Figures: 'Rebekah Mercer, Edwin Meese III, Steve Forbes, Jim DeMint'
+- Name: Hoover Institution
+  Location: Palo Alto CA
+  URL: 'http://www.hoover.org/'
+  Focus: >-
+    economic policy, health care, education, foreign relations, environmental
+    policy
+  Political Orientation: libertarian
+  Notable Funders: >-
+    Walton Family Foundation, John M. Olin Foundation, Randolph Foundation,
+    Searle Freedom Trust, Joyce and Donald Rumsfeld Foundation, ExxonMobil,
+    Thomas B. Fordham Foundation, Charles G. Koch Charitable Foundation
+  Notable Figures: 'George P. Shultz, Edwin Meese, William Damon, Terry Moe, Condoleezza Rice'
+- Name: Information Technology and Innovation Foundation
+  Location: Washington DC
+  URL: 'http://www.itif.org/'
+  Focus: technology policy
+  Political Orientation: centrist
+  Notable Funders: >-
+    Alfred P. Sloan Foundation, Cisco, eBay, Ewing Marion Kauffman Foundation,
+    Google, IBM
+  Notable Figures: 'Orrin Hatch, Darrell Issa'
+- Name: National Bureau of Economic Research
+  Location: Cambridge MA
+  URL: 'http://www.nber.org/'
+  Focus: 'economic policy, health care, education'
+  Political Orientation: centrist
+  Notable Funders: 'John M. Olin Foundation, Lynde and Harry Bradley Foundation'
+  Notable Figures: 'Joseph Stiglitz, Martin Feldstein, Ben Bernanke'
+- Name: New America Foundation
+  Location: Washington DC
+  URL: 'https://www.newamerica.org/'
+  Focus: 'education policy, technology policy, energy policy, economic policy'
+  Political Orientation: centrist
+  Notable Funders: >-
+    David and Lucile Packard Foundation, Pew Charitable Trusts, John D. and
+    Catherine T. MacArthur Foundation, Arizona State University, The Emerson
+    Collective, Google, Lumina Foundation, Bill & Melinda Gates Foundation
+  Notable Figures: >-
+    Eric Schmidt, James Fallows, Francis Fukuyama, Anne-Marie Slaughter, Fareed
+    Zakaria, Kevin Carey
+- Name: RAND Corporation
+  Location: Santa Monica CA
+  URL: 'http://www.rand.org/'
+  Focus: >-
+    education policy, health care policy, global climate change, science and
+    technology, national security
+  Political Orientation: centrist
+  Notable Funders: 'US Air Force, US Army, US Department of Health and Human Services'
+  Notable Figures: >-
+    Linda Darling-Hammond, Hubert Dreyfus, Daniel Ellsberg, Henry Kissinger,
+    Margaret Mead, John von Neumann, Condoleezza Rice, Donald Rumsfeld, Herbert
+    Simon
+- Name: Reason Foundation
+  Location: Los Angeles CA
+  URL: 'http://reason.org/'
+  Focus: 'education policy, economic policy, health care policy'
+  Political Orientation: libertarian
+  Notable Funders: >-
+    Charles G. Koch Foundation, David H. Koch Foundation, Brady Education
+    Foundation, ExxonMobil, Lynde and Harry Bradley Foundation, Sarah Scaife
+    Foundation, William H. Donner Foundation
+  Notable Figures: 'Drew Carey, David H. Koch, Robert W. Poole Jr.,'
+- Name: Thomas B. Fordham Institute
+  Location: Washington DC
+  URL: 'http://www.edexcellence.net/'
+  Focus: education policy
+  Political Orientation: conservative
+  Notable Funders: >-
+    Bloomberg Philanthropies, Carnegie Corporation of New York, College Board,
+    Hoover Institution
+  Notable Figures: 'Chester E. Finn Jr., Rod Paige, Diane Ravitch'
+- Name: Urban Institute
+  Location: Washington DC
+  URL: 'http://www.urban.org/'
+  Focus: 'education policy, housing policy, health care, criminal justice'
+  Political Orientation: liberal
+  Notable Funders: >-
+    Annie E. Casey Foundation, Ford Foundation, Robert Wood Johnson Foundation,
+    Henry J. Kaiser Family Foundation, Rockefeller Foundation
+  Notable Figures: 'Sarah Rosen Wartell, Henry Cisneros, Erskine Bowles'
