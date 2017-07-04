@@ -2,17 +2,25 @@
 layout: default
 title: Think Tanks
 ---
-<h1>Think Tanks</h1>
 
 <!-- Think Tanks -->
 {% assign thinktanks = site.data.thinktanks %}
-{% assign thinktanks = thinktanks | sort:"Location" | reverse %}
+{% assign thinktanks = thinktanks | sort:"Name" %}
 
 <!-- Document -->
-<ul>
+
 {% for thinktank in thinktanks %}
-  {% unless thinktank.Name == '' %}
-    <li>{{ thinktank.Name }} - {{ thinktank.Location }} ( {{ thinktank.URL }})</li>
-  {% endunless %}
+
+<p><strong><u>{{ thinktank.Name }}</u></strong>: {{ thinktank.Location }} (<a href="{{ thinktank.URL }}">{{ thinktank.URL }}</a>) </p> 
+
+<p>Political Orientation: {{ thinktank.Orientation }}</p>
+
+<p>Policy Focus: {{ thinktank.Focus }}</p>
+
+<p>Prominent Funders: {{ thinktank.Funders }}</p>
+
+<p>Notable Figures: {{ thinktank.Figures }}</p>
+
+<hr >
 {% endfor %}
-</ul>
+
