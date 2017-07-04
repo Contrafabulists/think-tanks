@@ -9,10 +9,19 @@ title: Think Tanks
 {% assign thinktanks = thinktanks | sort:"Name" %}
 
 <!-- Document -->
-<ul>
+
 {% for thinktank in thinktanks %}
 
-    <li><strong>{{ thinktank.Name }}</strong> - {{ thinktank.Location }} ({{ thinktank.URL }}). Political Orientation: {{ thinktank.Orientation }}</li>
+<p><strong>{{ thinktank.Name }}</strong>{{ thinktank.Location }} {{ thinktank.URL }} </p> 
+
+<p>Political Orientation: {{ thinktank.Orientation }}</p>
+
+<p>Policy Focus: {{ thinktank.Focus }}</p>
+
+<p>Prominent Funders: {{ thinktank.Funders }}</p>
+
+<p>Notable Figures: {{ thinktank.Figures }}</p>
+
 
 {% endfor %}
-</ul>
+
