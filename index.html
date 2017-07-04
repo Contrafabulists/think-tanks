@@ -6,13 +6,13 @@ title: Think Tanks
 
 <!-- Think Tanks -->
 {% assign thinktanks = site.data.thinktanks %}
-{% assign thinktanks = thinktanks | sort:"Location" | reverse %}
+{% assign thinktanks = thinktanks | sort:"Name" }
 
 <!-- Document -->
 <ul>
 {% for thinktank in thinktanks %}
   {% unless thinktank.Name == '' %}
-    <li>{{ thinktank.Name }} - {{ thinktank.Location }} ( {{ thinktank.URL }})</li>
+    <li><strong>{{ thinktank.Name }}</strong> - {{ thinktank.Location }} ({{ thinktank.URL }}). Political Orientation: {{ thinktank.PoliticalOrientation }}</li>
   {% endunless %}
 {% endfor %}
 </ul>
