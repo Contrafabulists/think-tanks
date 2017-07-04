@@ -2,7 +2,12 @@
 layout: default
 title: Think Tanks
 ---
-<h1>Think Tanks</h1>
+<h3>Think Tanks</h3>
+<br />
+
+<p><em>These are a handful of the think tanks who feature prominently in education research and policy</p></em>
+
+<br />
 
 <!-- Think Tanks -->
 {% assign thinktanks = site.data.thinktanks %}
@@ -12,7 +17,7 @@ title: Think Tanks
 
 {% for thinktank in thinktanks %}
 
-<p><strong>{{ thinktank.Name }}</strong>: {{ thinktank.Location }} <a href="{{ thinktank.URL }}">{{ thinktank.URL }}</a> </p> 
+<p><strong>{{ thinktank.Name }}</strong>: {{ thinktank.Location }} (<a href="{{ thinktank.URL }}">{{ thinktank.URL }}</a>) </p> 
 
 <p>Political Orientation: {{ thinktank.Orientation }}</p>
 
