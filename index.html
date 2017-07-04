@@ -12,7 +12,7 @@ title: Think Tanks
 <ul>
 {% for thinktank in thinktanks %}
   {% unless thinktank.Name == '' %}
-    <li><strong>{{ thinktank.Name }}</strong> - {{ thinktank.Location }} ({{ thinktank.URL }}). Political Orientation: {{ thinktank.PoliticalOrientation }}</li>
+    <li><strong>{{ thinktank.Name }}</strong> - {{ thinktank.Location }} ({{ thinktank.URL }}). Political Orientation: {{ thinktank.Orientation }}</li>
   {% endunless %}
 {% endfor %}
 </ul>
