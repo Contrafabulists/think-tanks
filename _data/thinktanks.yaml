@@ -5,6 +5,7 @@
   Orientation: libertarian
   Funders: David H. Koch Foundation
   Figures: Betsy DeVos
+  Notes: ''
 - Name: American Enterprise Institute
   Location: Washington DC
   URL: 'http://www.aei.org/'
@@ -15,6 +16,7 @@
     Lynne Cheney, Charles Murray, Newt Gingrich, Dick Cheney, Daniel Patrick
     Moynihan, Christina Joff Sommers, Richard Vedder, Robert Bork, Dinesh
     D'Souza, David Frum
+  Notes: ''
 - Name: Aspen Institute
   Location: Washington DC
   URL: 'https://www.aspeninstitute.org/'
@@ -26,6 +28,7 @@
   Figures: >-
     Walter Isaacson, Madeleine Albright, John Doerr, Salman Khan, Queen Noor of
     Jordan, Condoleezza Rice, Katie Couric
+  Notes: ''
 - Name: Brookings Institution
   Location: Washington DC
   URL: 'https://www.brookings.edu/'
@@ -35,6 +38,7 @@
     Bill & Melinda Gates Foundation, William and Flora Hewlett Foundation,
     JPMorgan Chase, the LEGO Foundation, State of Qatar
   Figures: 'E. J. Dionne, Jon Huntsman, Susan Rice, Susan Dynarski'
+  Notes: ''
 - Name: Cato Institute
   Location: Washington DC
   URL: 'https://www.cato.org/'
@@ -44,6 +48,7 @@
   Orientation: libertarian
   Funders: 'FedEx, Google, Whole Foods Market'
   Figures: 'Charles and David Koch, Neal McCluskey, Julian Sanchez'
+  Notes: ''
 - Name: Center for American Progress
   Location: Washington DC
   URL: 'https://www.americanprogress.org/'
@@ -53,6 +58,7 @@
     Ford Foundation, Bill & Melinda Gates Foundation, Walmart, Walton Family
     Foundation, CitiGroup, Embassy of the United Arab Emirates, Joyce Foundation
   Figures: 'Neera Tanden, Ulrich Boser, Lawrence Korb'
+  Notes: ''
 - Name: Center for Immigration Studies
   Location: Washington DC
   URL: 'http://www.cis.org/'
@@ -62,6 +68,7 @@
     William H. Donner Foundation, Lynde and Harry Bradley Foundation, John M.
     Olin Foundation
   Figures: Mark Krikorian
+  Notes: ''
 - Name: Claremont Institute
   Location: Claremont CA
   URL: 'http://www.claremont.org/'
@@ -71,6 +78,7 @@
     Sarah Scaife Foundation, Lynde and Harry Bradley Foundation, John M. Olin
     Foundation, William H. Donner Foundation
   Figures: 'Bruce Sanborn, Pat Sajak'
+  Notes: ''
 - Name: Clayton Christensen Institute
   Location: Cambridge MA
   URL: 'https://www.christenseninstitute.org'
@@ -78,6 +86,7 @@
   Orientation: conservative
   Funders: Bill & Melinda Gates Foundation
   Figures: 'Clayton Christensen, Michael Horn'
+  Notes: ''
 - Name: Discovery Institute
   Location: Seattle WA
   URL: 'http://www.discovery.org/'
@@ -85,6 +94,7 @@
   Orientation: conservative
   Funders: 'Bill & Melinda Gates Foundation, Maclellan Foundation'
   Figures: Bruce Chapman
+  Notes: ''
 - Name: Economic Policy Institute
   Location: Washington DC
   URL: 'http://www.epi.org/'
@@ -94,6 +104,7 @@
     AFSCME, United Auto Workers, United Steekworkers, United Mine Workers,
     Service Employees International Union
   Figures: 'Valerie Wilson, Lawrence Mishel'
+  Notes: ''
 - Name: Electronic Privacy Information Center
   Location: Washington DC
   URL: 'https://epic.org'
@@ -103,6 +114,7 @@
     Carnegie Corporation, Ford Foundation, W. K. Kellog Foundation, Omidyar
     Network, Sun Microsystems, Rockefeller Family Fund
   Figures: Marc Rotenberg
+  Notes: ''
 - Name: Foundation for Excellence in Educaiton
   Location: Tallahassee FL
   URL: 'http://www.excelined.org/'
@@ -110,6 +122,7 @@
   Orientation: conservative
   Funders: 'Bill & Melinda Gates Foundation, Michael Bloomberg, Amplify'
   Figures: 'Jeb Bush, Condoleezza Rice'
+  Notes: ''
 - Name: Future of Privacy Forum
   Location: Washington DC
   URL: 'http://www.futureofprivacy.org/'
@@ -117,6 +130,7 @@
   Orientation: conservative
   Funders: 'Google, AT&T, Comcast, Facebook, Bill & Melinda gates Foundation'
   Figures: Jules Polonetsky
+  Notes: ''
 - Name: Heartland Institute
   Location: Chicago IL
   URL: 'https://www.heartland.org/'
@@ -128,6 +142,7 @@
     Sarah Scaife Foundation, John M. Olin Foundation, Lynde and Harry Bradley
     Foundation, Charles G. Koch Charitable Foundation, ExxonMobil
   Figures: 'Robert Buford, Joseph L. Bast'
+  Notes: ''
 - Name: Heritage Foundation
   Location: Washington DC
   URL: 'http://www.heritage.org/'
@@ -135,6 +150,7 @@
   Orientation: libertarian
   Funders: Richard and Helen DeVos Foundation
   Figures: 'Rebekah Mercer, Edwin Meese III, Steve Forbes, Jim DeMint'
+  Notes: ''
 - Name: Hoover Institution
   Location: Palo Alto CA
   URL: 'http://www.hoover.org/'
@@ -147,6 +163,7 @@
     Searle Freedom Trust, Joyce and Donald Rumsfeld Foundation, ExxonMobil,
     Thomas B. Fordham Foundation, Charles G. Koch Charitable Foundation
   Figures: 'George P. Shultz, Edwin Meese, William Damon, Terry Moe, Condoleezza Rice'
+  Notes: ''
 - Name: Information Technology and Innovation Foundation
   Location: Washington DC
   URL: 'http://www.itif.org/'
@@ -156,6 +173,7 @@
     Alfred P. Sloan Foundation, Cisco, eBay, Ewing Marion Kauffman Foundation,
     Google, IBM
   Figures: 'Orrin Hatch, Darrell Issa'
+  Notes: ''
 - Name: National Bureau of Economic Research
   Location: Cambridge MA
   URL: 'http://www.nber.org/'
@@ -163,6 +181,7 @@
   Orientation: centrist
   Funders: 'John M. Olin Foundation, Lynde and Harry Bradley Foundation'
   Figures: 'Joseph Stiglitz, Martin Feldstein, Ben Bernanke'
+  Notes: ''
 - Name: New America Foundation
   Location: Washington DC
   URL: 'https://www.newamerica.org/'
@@ -175,6 +194,7 @@
   Figures: >-
     Eric Schmidt, James Fallows, Francis Fukuyama, Anne-Marie Slaughter, Fareed
     Zakaria, Kevin Carey
+  Notes: ''
 - Name: RAND Corporation
   Location: Santa Monica CA
   URL: 'http://www.rand.org/'
@@ -187,6 +207,7 @@
     Linda Darling-Hammond, Hubert Dreyfus, Daniel Ellsberg, Henry Kissinger,
     Margaret Mead, John von Neumann, Condoleezza Rice, Donald Rumsfeld, Herbert
     Simon
+  Notes: ''
 - Name: Reason Foundation
   Location: Los Angeles CA
   URL: 'http://reason.org/'
@@ -197,6 +218,7 @@
     Foundation, ExxonMobil, Lynde and Harry Bradley Foundation, Sarah Scaife
     Foundation, William H. Donner Foundation
   Figures: 'Drew Carey, David H. Koch, Robert W. Poole Jr.,'
+  Notes: ''
 - Name: Thomas B. Fordham Institute
   Location: Washington DC
   URL: 'http://www.edexcellence.net/'
@@ -206,6 +228,7 @@
     Bloomberg Philanthropies, Carnegie Corporation of New York, College Board,
     Hoover Institution
   Figures: 'Chester E. Finn Jr., Rod Paige, Diane Ravitch'
+  Notes: ''
 - Name: Urban Institute
   Location: Washington DC
   URL: 'http://www.urban.org/'
@@ -215,3 +238,4 @@
     Annie E. Casey Foundation, Ford Foundation, Robert Wood Johnson Foundation,
     Henry J. Kaiser Family Foundation, Rockefeller Foundation
   Figures: 'Sarah Rosen Wartell, Henry Cisneros, Erskine Bowles'
+  Notes: ''
